@@ -1,15 +1,18 @@
-
-.jumbotron {
-  background: #000 url('/assets/image/adam-wilson-421402-unsplash.jpg') no-repeat center center;
+.bg{
+  background: #000 url('/assets/image/fields/daniel-hansen-242168-unsplash.jpg') no-repeat center center;
   background-size: 100% 100%;
+  opacity: 0.5;
   -moz-background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
   -o-background-size: 100% 100%;
+}
+.jumbotron {
   color: rgb(255, 255, 255);
   font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  background: transparent;
 }
 
 #feed-card{
   background: #000 url('/assets/image/animals/jordan-whitt-342862-unsplash.jpg') no-repeat center center;
-  
 }
