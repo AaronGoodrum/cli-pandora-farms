@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { NavCmpComponent } from './navbar/nav-cmp/nav-cmp.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavCmpComponent
   ],
   imports: [
     BrowserModule
