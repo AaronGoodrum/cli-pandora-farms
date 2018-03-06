@@ -4,12 +4,20 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavCmpComponent } from './navbar/nav-cmp/nav-cmp.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { OffersComponent } from './offers/offers.component';
+import { ProductsComponent } from './products/products.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavCmpComponent
+    NavCmpComponent,
+    AboutUsComponent,
+    OffersComponent,
+    ProductsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule
