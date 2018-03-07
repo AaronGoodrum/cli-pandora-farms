@@ -1,6 +1,6 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 
 import { AppComponent } from './app.component';
 import { NavCmpComponent } from './navbar/nav-cmp/nav-cmp.component';
@@ -9,6 +9,8 @@ import { OffersComponent } from './offers/offers.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactsComponent } from './contacts/contacts.component';
 
+import { routes } from './app.router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { ContactsComponent } from './contacts/contacts.component';
     AboutUsComponent,
     OffersComponent,
     ProductsComponent,
-    ContactsComponent
+    ContactsComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routes
   ],
   providers: [],
   bootstrap: [AppComponent]
