@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+.parallax {
+  /* The image used */
+  background: #000 url('/assets/image/fields/daniel-hansen-242168-unsplash.jpg');
+    /* Set a specific height */
+  height: 100%;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

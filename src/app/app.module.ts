@@ -8,9 +8,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { OffersComponent } from './offers/offers.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { HomeComponent } from './home/home.component';
 
 import { routes } from './app.router';
-import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
