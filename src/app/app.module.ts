@@ -1,6 +1,7 @@
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavCmpComponent } from './navbar/nav-cmp/nav-cmp.component';
@@ -24,7 +25,8 @@ import { routes } from './app.router';
   ],
   imports: [
     BrowserModule,
-    routes
+    routes,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

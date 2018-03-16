@@ -1,0 +1,17 @@
+.body-group {
+  /* The image used */
+  background: #000 url('/assets/image/animals/sebastian-abbruzzese-328239-unsplash.jpg');
+    /* Set a specific height */
+  height: 100%;
+  width: 100%;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-light{
+  opacity: .6;
+}

@@ -1,11 +1,10 @@
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" routerLink="">Pandora Farms</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarCollapse">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse navbarCollapse">
+    <div id="navbar" class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
@@ -23,13 +22,9 @@
           <a class="nav-link" routerLink="/contact">Contact</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Products Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" routerLink="/products" type="submit">Search</button>
-      </form>
     </div>
-
   </nav>
+  
   <div class="text-center">
       <h1 class="display-4">Pandora Farms</h1>
       <p class="lead">Feeding our family and yours since 2010</p>
